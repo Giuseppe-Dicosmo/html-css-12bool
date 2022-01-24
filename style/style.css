@@ -40,3 +40,11 @@ div[class*="col"] > div.row > div{
 .narrow-end{
   align-self: flex-end;
 }
+
+.space-around{
+  justify-content: space-around;
+}
+
+.space-between{
+  justify-content: space-between;
+}
