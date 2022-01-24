@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* *----------------------------------------------
+                    !debug
+   *---------------------------------------------- */
+div[class*="col"]{
+  background-color: #006cfa;
+  border: 1px solid white;
+  color: white;
+  min-height: 40px;
+  padding: 10px;
+}
+
+div[class*="col"] > div.row > div{
+  background-color: #00e165;
+  border: 1px solid #006cfa;
+  color: white;
+}
+
+body > div.row:nth-child(3){
+  margin: 30px 0;
+}
