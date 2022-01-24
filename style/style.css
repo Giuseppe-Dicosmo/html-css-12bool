@@ -21,6 +21,22 @@ div[class*="col"] > div.row > div{
   color: white;
 }
 
-body > div.row:nth-child(3){
-  margin: 30px 0;
+.margin{
+  margin-bottom: 30px;
+}
+
+.wide{
+  height: 80px;
+}
+
+.narrow{
+  height: 40px;
+}
+
+.narrow-middle{
+  align-self: center;
+}
+
+.narrow-end{
+  align-self: flex-end;
 }
