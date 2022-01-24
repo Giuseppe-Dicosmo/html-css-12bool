@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #171717;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #434343;
+  box-shadow: inset 1px 1px 5px #a3a3a3;
+  border-radius: 15px;
+}
+
+div[class*="col"]{
+  padding: 10px;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.red{
+  background-color: red;
+}
+
+.black{
+  background-color: black;
+}
+
+.arancione-chiaro{
+  background-color: #f0a87e;
+}
+
+.giallo-chiaro{
+  background-color: #ffe190;
+}
+
+.giallo-chiaro-1{
+  background-color: #fdff91;
+}
+
+.marrone{
+  background-color: #bf5012;
+}
+
+.marrone-scuro{
+  background-color: #793710;
+}
+
+.bianco{
+  background-color: white;
+}
